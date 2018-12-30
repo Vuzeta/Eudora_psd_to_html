@@ -1,0 +1,52 @@
+.header {
+  background:   linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+                url("#{$path}header.jpg") center center fixed;
+  background-size: cover;
+  height: 100%;
+
+  &__title {
+    text-align: center;
+    margin-top: 349px;
+  }
+
+  &__heading {
+    color: $base__white;
+    margin-bottom: 51px;
+    font-style: italic;
+  }
+
+  &__desc {
+    color: $base__white;
+    text-shadow: 0 0 15px #000000;
+    line-height: 38px;
+    letter-spacing: 0.24px;
+    margin-bottom: 79px;
+    font-family: $base__font-family--secondary;
+  }
+
+  &__btn {
+    margin-bottom: 388px;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: $base__white;
+  }
+}
+
+@media all and (min-width: 320px) and (max-width: 680px) {
+  .header {
+    &__title {
+      text-align: center;
+      margin-top: 200px;
+      font-size: 10px;
+    }
+
+    &__btn {
+      margin-bottom: 200px;
+      background-color: rgba(0, 0, 0, 0.1);
+      color: $base__white;
+    }
+
+    &__desc {
+      line-height: 18px;
+    }
+  }
+}

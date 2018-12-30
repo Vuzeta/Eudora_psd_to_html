@@ -1,0 +1,121 @@
+.title {
+  text-align: center;
+  margin-top: 132px;
+  margin-bottom: 101px;
+
+  &__heading {
+    font-family: $base__font-family;
+    font-style: italic;
+    color: $base__secondary;
+    margin: 72px;
+
+    &::before {
+      content: url("../../assets/line.png");
+      width: 50px;
+      position: relative;
+      top: -20px;
+      left: -32px;
+    }
+
+    &::after {
+      content: url("../../assets/line.png");
+      position: relative;
+      top: -20px;
+      left: 32px;
+    }
+  }
+
+  &__desc {
+    font-family: $base__font-family--secondary;
+    color: $base__tertiary;
+    width: 40%;
+    margin: 0 auto;
+  }
+}
+
+@media all and (min-width: 1050px) and (max-width: 1445px) {
+  .title {
+    &__heading {
+      font-size: 2.2em;
+
+      &::before {
+        content: "";
+        background: url("../../assets/line.png");
+        background-size: 10px 20px;
+        display: inline-block;
+        width: 130px;
+        height: 1px;
+      }
+
+      &::after {
+        content: "";
+        background: url("../../assets/line.png");
+        background-size: 10px 20px;
+        display: inline-block;
+        width: 130px;
+        height: 1px;
+      }
+    }
+
+    &__desc {
+      font-size: 1.2em;
+    }
+  }
+}
+
+@media all and (min-width: 910px) and (max-width: 1049px) {
+  .title {
+    &__heading {
+      font-size: 2.1em;
+
+      &::before {
+        content: "";
+        background: url("../../assets/line.png");
+        background-size: 10px 20px;
+        display: inline-block;
+        width: 130px;
+        height: 1px;
+      }
+
+      &::after {
+        content: "";
+        background: url("../../assets/line.png");
+        background-size: 10px 20px;
+        display: inline-block;
+        width: 120px;
+        height: 1px;
+      }
+    }
+
+    &__desc {
+      font-size: 1.1em;
+    }
+  }
+}
+
+@media all and (min-width: 320px) and (max-width: 910px) {
+  .title {
+    margin-top: 100px;
+    margin-bottom: 80px;
+
+    &__heading {
+      font-size: 2em;
+      border-bottom: 1px solid $base__primary;
+      border-top: 1px solid $base__primary;
+      padding-bottom: 10px;
+      padding-top: 10px;
+
+      &::before {
+        content: none;
+      }
+
+      &::after {
+        content: none;
+      }
+    }
+
+    &__desc {
+      font-size: 1em;
+    }
+  }
+}

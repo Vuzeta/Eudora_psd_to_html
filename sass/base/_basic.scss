@@ -1,0 +1,32 @@
+body {
+  font-family: $base__font-family;
+  font-size: $base__font-size;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+.heading--small {
+  font-size: $heading__font-size--small;
+}
+
+.heading--medium {
+  font-size: $heading__font-size--medium;
+}
+
+.heading--large {
+  font-size: $heading__font-size--large;
+}
+
+.heading--xlarge {
+  font-size: $heading__font-size--xlarge;
+}
+
+//orangle title in nav,
+.spec {
+  color: $base__primary;
+}

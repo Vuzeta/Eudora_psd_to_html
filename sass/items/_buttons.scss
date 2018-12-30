@@ -1,0 +1,25 @@
+.btn {
+  width: 208px;
+  height: 65px;
+  border: 2px solid #d9dcee;
+  background-color: $base__white;
+  color: $base__secondary;
+  font-family: BebasNeueBold;
+  font-size: $heading__font-size--medium;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  cursor: pointer;
+  transition: 0.3s;
+
+  &:hover {
+    background: $base__primary;
+    color: $base__white;
+    border: none;
+  }
+
+  &__primary {
+    background-color: $base__primary;
+    color: $base__white;
+    border: none;
+  }
+}

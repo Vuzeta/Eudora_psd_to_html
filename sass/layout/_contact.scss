@@ -1,0 +1,70 @@
+.contact {
+  background: url("#{$path}subscribe.png") center center no-repeat;
+
+  &__container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__heading {
+    color: $base__white;
+    font-style: italic;
+    padding-top: 120px;
+    padding-bottom: 80px;
+  }
+
+  &__email {
+    height: 53px;
+    width: 31%;
+    margin-bottom: 70px;
+    border: 2px solid #d9dcee;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: $base__white;
+    font-size: $heading__font-size--medium;
+    font-family: $base__font-family--secondary;
+    text-align: center;
+
+    &::placeholder {
+      color: $base__white;
+      max-width: 31%;
+    }
+  }
+
+  &__btn {
+    background-color: $base__primary;
+    color: $base__white;
+    border: none;
+    margin-bottom: 150px;
+  }
+}
+
+@media all and (min-width: 820px) and (max-width: 1200px) {
+  .contact {
+    &__email {
+      width: 45%;
+    }
+  }
+}
+
+@media all and (min-width: 320px) and (max-width: 819px) {
+  .contact {
+    &__email {
+      width: 70%;
+    }
+  }
+}
+
+@media all and (min-width: 320px) and (max-width: 530px) {
+  .contact {
+    &__heading {
+      font-size: $heading__font-size--large;
+    }
+
+    &__email {
+      width: 90%;
+      font-size: $heading__font-size--small;
+    }
+  }
+}
