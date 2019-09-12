@@ -1,9 +1,21 @@
-# Eudora_psd_to_html
--------------------------------
-Project PSD to HTML.
+### Eudora
 
-*Free psd template created by symu.co.
+"Eudora" project was created by coded the page on the basis of PSD file
 
-In the project I used HTML5, CSS3 and preprocessor Sass and JavaScript
+------------
+### Technology used:
 
-LIVE: https://vuzeta.github.io/Eudora_psd_to_html/
+HTML5, CSS3,Sass,JavaScript
+
+ ------------
+### DEMO
+
+https://vuzeta.github.io/Eudora_psd_to_html/
+
+------------
+### CODE
+
+https://github.com/Vuzeta/Eudora_psd_to_html
+
+------------
+
