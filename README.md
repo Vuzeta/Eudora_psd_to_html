@@ -1,6 +1,6 @@
 ### Eudora
 
-"Eudora" project was created by coded the page on the basis of PSD file
+"Eudora" project was created by coded the page on the basis of PSD file from symu.co
 
 ------------
 ### Technology used:
